@@ -1,0 +1,50 @@
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+   
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    max-width: max-content;
+    text-align: center;
+    
+   
+}
+input{
+    padding: 6px;
+    margin: 2px;
+    width: 210px;
+}
+button[type="submit"]{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background-color: rgb(77, 148, 255);
+    font-weight: bold;
+    font-size:medium ;
+    color: #fff;
+    border-radius: 6px;
+}
+.btn{
+    
+
+}
+.first,
+.second{
+    border:2px solid rgb(219, 219, 219) ;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 40px;
+   padding-right: 40px;
+    margin-top: 8px;
+    border-radius: 3px;
+}
+.sign-up{
+    color:rgb(53, 131, 248) ;
+}
+.logo{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
